@@ -1,4 +1,4 @@
-# api key 51857bc1f39669d175e5428e6995976d
+# api key 
 # https://openweathermap.org/find?utf8=%E2%9C%93&q=Stavropol
 # Stavropol’, RU
 # [45.0428, 41.9733]
@@ -11,7 +11,7 @@ from pyowm.utils import timestamps
 from pyowm.utils.config import get_default_config
 
 try:
-    owm = OWM('51857bc1f39669d175e5428e6995976d')
+    owm = OWM('')
     mgr = owm.weather_manager()
     config_dict = get_default_config()
     config_dict['language'] = 'ru'
